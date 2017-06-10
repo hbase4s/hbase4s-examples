@@ -9,7 +9,6 @@ lazy val hbase4sExamples = (project in file("."))
     organization := "io.github.hbase4s",
     moduleName := "hbase4s-examples",
     version := "0.1.2",
-    useGpg := true,
     licenses := Seq("MIT" -> url("https://opensource.org/licenses/MIT")),
     homepage := Some(url("http://github.com/hbase4s")),
     scalacOptions in ThisBuild ++= Seq(
